@@ -13,18 +13,6 @@ namespace SqlPrject
 {
     public class DataAccess
     {
-
-
-        //private static void CreateCommand(string quaryString, string connectoinString)
-        //{
-        //    using (SqlConnection connection=new SqlConnection(connectoinString)) 
-        //    {
-        //        SqlCommand command = new SqlCommand(quaryString, connection);
-        //        command.Connection.Open();
-        //        command.ExecuteNonQuery();
-        //    }
-        //}
-
         public int InsertDataCategory(string connectionString)
         {
 
